@@ -1,0 +1,18 @@
+﻿@model KrishnaAPI.Models.DataClass
+@{
+    ViewBag.Title = "Insert";
+}
+<div>
+    <label>Application Id</label> @Html.TextBoxFor(i => i.ApplicationId)
+</div>
+
+<div>
+    <label>Type</label> @Html.TextBoxFor(i => i.ApplicationId)
+</div>
+<div>
+    <label>Summary</label> @Html.TextBoxFor(i => i.ApplicationId)
+</div>
+<div>
+    <label>Amount</label> @Html.TextBoxFor(i => i.ApplicationId)
+</div>
+@Html.ActionLink("Insert", "CreateItem")
